@@ -1,0 +1,7 @@
+[package]
+name = "grand-pattern"
+version = "0.1.0"
+edition = "2021"
+description = "Grand Pattern Fibonacci Dual-Direction Architecture"
+
+[dependencies]
