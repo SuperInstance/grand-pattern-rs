@@ -118,7 +118,7 @@ impl Room {
         }
     }
 
-    pub fn tick(&mut self, timestamp: f64, sensor_id: i32, perception: Embedding) -> f64 {
+    pub fn tick(&mut self, timestamp: f64, _sensor_id: i32, perception: Embedding) -> f64 {
         // Store perception
         self.perception_db.push(TaggedEmbedding {
             value: perception.clone(),
